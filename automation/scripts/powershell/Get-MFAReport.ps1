@@ -1,7 +1,8 @@
 <#
 #########################################################
 .SYNOPSIS
-    This script will pull for all or specific Entra ID users and validate their per user MFA status, Active Directory status, and License status & export the results to a CSV file. The goal being automating this process and sending the report to the helpdesk or security team for review.
+    This script will pull for all or specific Entra ID users and validate their per user MFA status, Active Directory status, and License status & export the results to a CSV file. 
+    The goal being automating this process and sending the report to the helpdesk or security team for review.
 
 .DESCRIPTION
     Author      : Michael Beauregard
@@ -9,7 +10,7 @@
     Version     : 1.0
     Notes       : Microsoft.Graph , Microsoft.Graph.Beta.Users , ActiveDirectory modules must be installed prior to running this script.
                   This version does not prompt for module installation.
-                  Make sure you have the necessary permissions to read user and authentication method data in Microsoft Graph.
+                  WARNING: This script accesses sensitive Microsoft Entra / AD data. Only run in environments where you have proper authorization.
     GitHub      : https://github.com/BorgyTechRepo/cyber-learning-portfolio/blob/main/automation/scripts/powershell/Get-MFAReport.ps1
 #########################################################
 #>
