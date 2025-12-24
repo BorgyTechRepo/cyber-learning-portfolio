@@ -10,7 +10,7 @@
     Notes       : Microsoft.Graph , Microsoft.Graph.Beta.Users , ActiveDirectory modules must be installed prior to running this script.
                   This version does not prompt for module installation.
                   Make sure you have the necessary permissions to read user and authentication method data in Microsoft Graph.
-    GitHub      : https://github.com/BorgyTechRepo/cyber-learning-portfolio
+    GitHub      : https://github.com/BorgyTechRepo/cyber-learning-portfolio/blob/main/automation/scripts/powershell/Get-MFAReport.ps1
 #########################################################
 #>
 
